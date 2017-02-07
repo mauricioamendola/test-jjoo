@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Test Ajax</title>
+</head>
+<body>
+    <script type="text/javascript">
+      function showMyPassword(str){
+          if (str.length == 0) {
+              document.getElementById("name").innerHTML = "";
+              console.log("hola1");
+              return;
+          }
+          else {
+              var xmlhttp = new XMLHttpRequest();
+              xmlhttp.onreadystatechange = function() {
+                  if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                      document.getElementById("pass").innerHTML = xmlhttp.responseText;
+                      console.log("hola2");
+                  }
+              };
+              console.log(str);
+              console.log("phpajaxtest.php?q=" + document.getElementById("name").value);
+              xmlhttp.open("GET", "phpajaxtest.php?q=" + document.getElementById("name").value, true);
+              xmlhttp.send();
+          }
+      }
+    </script>
+    <input type="text" placeholder="Nombre de usuario" id="name">
+    <button type="submit" onclick="showMyPassword(document.getElementById('name').value)">Enviar</button>
+    <p>La contraseña es:</p>
+    <p id="pass">aló</p>
+</body>
+</html>

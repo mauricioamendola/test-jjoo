@@ -1,0 +1,240 @@
+/*********************************/
+/*      Barra de navegación      */
+/*********************************/
+
+    @media (max-width: 767px) {
+        .navbar-brand {
+            font-size: 14px !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+
+    .cabecera {
+        /*display: block;*/
+        width: 100%;
+        height: 10%;
+        background-image: url(../img/bg1.png);
+    }
+
+    .Todo{
+        padding: 0 15px;
+        margin: 0 -15px;
+    }
+    .nav-container {
+        /*display: block;*/
+        padding-top: 1%;
+        margin-left: 4.5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    .navbar-brand {
+        color: #134785;
+    }
+
+    .login-links li {
+        display: inline;
+    }
+
+    .login-links li a {
+        color: black;
+    }
+
+    .navbar-text {
+    	display: inline-block;
+    	position: relative;
+        text-decoration:none;
+    }
+
+    .navbar-text a:hover {
+        text-decoration: none;
+    }
+
+    .navbar-text:after {
+    	content: '';
+    	display: block;
+    	margin: auto;
+    	height: 2px;
+    	width: 0px;
+    	background: transparent;
+    	transition: width .3s ease, background-color .3s ease;
+    }
+    .navbar-text:hover:after {
+    	width: 100%;
+    	background: black;
+    }
+
+/*********************************/
+/*           Fin navbar          */
+/*********************************/
+
+.facebook-posts {
+    display: inline;
+}
+
+.page-title {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #134785;
+}
+
+.social-updates {
+    object-position: center
+    width: 90% !important;
+    /*height: 150px;*/
+}
+
+.rss-container {
+    width: 93%;
+    margin: auto;
+    margin-top: 10px;
+    /*background-color: aquamarine;*/
+}
+
+.news-title {
+    font-family: sans-serif;
+    color: white;
+    text-decoration-color: white;
+}
+
+.news-title:hover{
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+.rss-title {
+   top: 0;
+   left: 0;
+   width: 100%;
+   font-size: 24px;
+   line-height: 24px;
+   padding: 5px;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+/*********************************/
+/*  Iconos del dropdown del nav  */
+/*********************************/
+
+#dropdown-news {
+    background-image: url("../img/noticias.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+}
+
+#dropdown-info {
+    background-image: url("../img/info.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+}
+
+#dropdown-deportes {
+    background-image: url("../img/deportes.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+}
+
+#dropdown-paises {
+    background-image: url("../img/paises.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+}
+
+#dropdown-atletas {
+    background-image: url("../img/atletas.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+}
+
+#dropdown-entradas {
+    background-image: url("../img/entradas.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+}
+
+#dropdown-viajar {
+    background-image: url("../img/viajar.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 20px;
+}
+
+/******************************************/
+/*  Acá terminan los íconos del dropdown  */
+/******************************************/
+
+
+.register-form-container {
+    width: 93%;
+    margin: auto;
+    margin-top: 10px;
+    /*background-color: aquamarine;*/
+}
+
+.form-field {
+    width: 50% !important;
+}
+
+/*********************************************************/
+/*  Arreglos a las columnas de Bootstrap para el inicio  */
+/*********************************************************/
+
+.col-custom {
+  /*position: relative;
+  min-height: 1px;*/
+  padding-right: 30px;
+  padding-left: 15px;
+  height: 250px !important;
+  margin: 1% 1% 1% 1% !important;
+}
+
+.col-custom-list {
+    margin-bottom: 20px;
+}
+
+
+/************************/
+/*  Arreglos generales  */
+/************************/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
+}
+
+.athlete-info {
+    margin-bottom: 2px;
+}
+
+.athlete-profile-image {
+    margin-left: 50%;
+}
+
+.footer,
+.push {
+  height: 50px;
+  background-image: url("../img/bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+  
+}

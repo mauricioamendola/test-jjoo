@@ -1,0 +1,8 @@
+60bf30		verde claro
+0B8237		verde oscuro
+
+FBCA06		naranja claro
+F03C1F		naranja oscuro
+
+4ABEEE		azul claro
+2157A3		azul oscuro

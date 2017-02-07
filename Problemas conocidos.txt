@@ -1,0 +1,2 @@
+#001 - Se permite el ingreso de datos vacíos en el formulario de países
+#002 - Se permite el ingreso de datos vacíos en el formulario de regiones

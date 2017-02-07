@@ -1,0 +1,19 @@
+Usuarios y contraseñas para la base de datos:
+
+Login:
+
+User: login-user
+Pass: loginpass
+
+
+User: infoSelect
+Pass: infoselectpass
+
+User: toInsert
+Pass: toInsert
+
+User: toUpdate
+Pass: toUpdate
+
+User: toDelete
+Pass: toDelete

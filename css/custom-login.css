@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url('../img/big_bg.jpg');
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    width: 30%;
+    /*height: 350px;*/
+    height: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bot: auto;
+    top: 50%;*/
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  /* bring your own prefixes */
+    transform: translateY(50%);
+    transform: translate(-50%, -50%);
+    min-height: 300px;
+}
+
+.col-md-4 {
+    /*background-color: aquamarine;*/
+    margin: 0.5% !important;
+}
+
+.col-md-8 {
+    /*background-color: black;*/
+    margin: 0.5% !important;
+}
+
+#separador {
+    width: 1px;
+    height: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+}
+
+.input-field {
+    border-radius: 3px;
+    width: 100%;
+}
